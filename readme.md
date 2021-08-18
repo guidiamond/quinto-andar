@@ -4,5 +4,5 @@
 # Como rodar
 ```sh
 docker build -t quinto_andar .
-docker run --gpus all quinto_andar:latest
+docker run -v <path para pasta que vai salvar o modelo>:/tf/model --gpus all quinto_andar:latest
 ```
