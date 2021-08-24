@@ -43,7 +43,7 @@ try:
             epochs=2,
             validation_data=(test_images, test_labels),
         )
-        model.save("/tf/model/my_model.h5")
+        model.save("./quintoandar/my_model.h5")
 
         # plt.plot(history.history["accuracy"], label="accuracy")
         # plt.plot(history.history["val_accuracy"], label="val_accuracy")
